@@ -12,13 +12,14 @@ font-family: 'Roboto', sans-serif; */
   --secondary-txt: #ffffff;
   --half-txt: #757575;
 }
+
 .header {
   background: var(--secondary-txt);
 }
 
 .header-link,
 .footer-link {
-  font-family: var(--secondary-font);
+  font-family: var(--secondary-txt);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -33,7 +34,7 @@ font-family: 'Roboto', sans-serif; */
   color: var(--accent-txt);
 }
 .header-phone {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
