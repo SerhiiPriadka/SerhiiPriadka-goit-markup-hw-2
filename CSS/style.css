@@ -1,7 +1,7 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-.root {
+:root {
   /* Шрифты */
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -11,6 +11,9 @@ font-family: 'Roboto', sans-serif; */
   --primary-txt: #212121;
   --secondary-txt: #ffffff;
   --half-txt: #757575;
+  /* цвета фона */
+  --dark-fons: #2f303a;
+  --light-fons: #f5f4fa;
 }
 
 .header {
@@ -19,40 +22,41 @@ font-family: 'Roboto', sans-serif; */
 
 .header-link,
 .footer-link {
-  font-family: var(--secondary-txt);
-  font-size: 26px;
+  font-family: var(--secondary-font);
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-txt);
 }
+.logo-primary {
+  color: var(--primary-txt);
+}
+.logo-secondary {
+  color: var(--secondary-txt);
+}
 
 .header-mail {
   font-family: var(--main-font);
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-txt);
 }
 .header-phone {
   font-family: var(--main-font);
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--half-txt);
 }
 .header-item {
   font-family: var(--main-font);
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-txt);
 }
 .hero {
-  background: #2f303a;
+  background: var(--dark-fons);
 }
 .hero-title {
   font-family: var(--main-font);
-  font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -63,69 +67,56 @@ font-family: 'Roboto', sans-serif; */
 }
 .hero-btn-color {
   font-family: var(--main-font);
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--secondary-txt);
 }
-.body {
+body {
   font-family: var(--main-font);
-  font-size: 14px;
+  color: var(--primary-txt);
   line-height: 1.4;
   letter-spacing: 0.03em;
 }
 .title {
   font-family: var(--main-font);
-  font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--primary-txt);
 }
 
 .subtitle {
   font-family: var(--main-font);
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-txt);
 }
 
 .about-descr {
   font-family: var(--main-font);
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
 
 .team {
-  background: #f5f4fa;
+  background: var(--light-fons);
 }
 .team-name {
   font-family: var(--main-font);
-  font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-txt);
 }
 .team-position {
   font-family: var(--main-font);
-  font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
 
 .footer {
-  background: #2f303a;
+  background: var(--dark-fons);
 }
 
 .footer-item {
   font-family: var(--main-font);
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-txt);
 }
 
@@ -133,16 +124,12 @@ font-family: 'Roboto', sans-serif; */
 
 .project-name {
   font-family: var(--main-font);
-  font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
   color: var(--primary-txt);
 }
 
 .project-filter {
   font-family: var(--main-font);
-  font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
