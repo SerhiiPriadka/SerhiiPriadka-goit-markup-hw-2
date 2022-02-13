@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif; */
 .header {
   background: var(--secondary-txt);
 }
-
+/* Стили логотипа */
 .header-link,
 .footer-link {
   font-family: var(--secondary-font);
@@ -33,7 +33,7 @@ font-family: 'Roboto', sans-serif; */
 .logo-secondary {
   color: var(--secondary-txt);
 }
-
+/* Стили ссылок */
 .header-mail {
   font-family: var(--main-font);
   line-height: 1.14;
