@@ -22,6 +22,7 @@ font-family: 'Roboto', sans-serif; */
 body {
   font-family: var(--main-font);
   color: var(--primary-txt);
+  font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.03em;
 }
@@ -40,6 +41,7 @@ body {
 .header-link,
 .footer-link {
   font-family: var(--secondary-font);
+  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-cl);
@@ -52,7 +54,9 @@ body {
 }
 /* Стили ссылок */
 .header-mail {
+  font-weight: 500;
   line-height: 1.14;
+  font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--half-txt);
 }
@@ -62,11 +66,15 @@ body {
 }
 .header-phone {
   font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--half-txt);
 }
 .header-item {
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
@@ -80,6 +88,7 @@ body {
   background: var(--dark-fons);
 }
 .hero-title {
+  font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -90,6 +99,7 @@ body {
 }
 .hero-btn-color {
   font-family: inherit;
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--secondary-txt);
@@ -97,18 +107,24 @@ body {
 }
 
 .title {
+  font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--primary-txt);
 }
 
 .subtitle {
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-txt);
 }
 
 .about-descr {
+  font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
 
@@ -116,11 +132,16 @@ body {
   background: var(--light-fons);
 }
 .team-name {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--primary-txt);
 }
 .team-position {
+  font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
 
@@ -129,13 +150,16 @@ body {
 }
 .footer-gps {
   font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--secondary-txt);
 }
 .footer-mail,
 .footer-phone {
   font-style: normal;
+  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
 
@@ -144,6 +168,7 @@ body {
 .nav-link {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
   font-style: normal;
   line-height: 1.63;
   background: var(--light-fons);
@@ -151,12 +176,16 @@ body {
   cursor: pointer;
 }
 .project-name {
+  font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--primary-txt);
 }
 
 .project-filter {
+  font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--half-txt);
 }
 .nav-link:hover,
